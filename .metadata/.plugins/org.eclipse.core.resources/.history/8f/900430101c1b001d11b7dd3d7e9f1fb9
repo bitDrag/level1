@@ -1,0 +1,5 @@
+package io.moviebrain.ratingsdataservice.resource;
+
+public class RatingDataResource {
+
+}

@@ -1,0 +1,5 @@
+package io.moviebrain.ratingsdataservice.models;
+
+public class Rating {
+
+}

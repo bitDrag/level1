@@ -1,0 +1,11 @@
+package io.moviebrain.movieinfoservice.resource;
+
+import io.moviebrain.movieinfoservice.models.Movie;
+
+@RestController
+@RequestMapping("/movies")
+public class MovieResource {
+	public Movie getMovieInfo() {
+		
+	}
+}

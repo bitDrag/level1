@@ -1,0 +1,15 @@
+package io.moviebrain.moviecatalogservice.resource;
+
+import java.util.Collections;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import io.moviebrain.moviecatalogservice.models.CatalogItem;
+
+@RestController
+public class moviecatalogueresource {
+	public List<CatalogItem> getCatalog(String userId){
+		return Collections.singletonList(new CatalogItem(name:"Transformers",desc:"Test",rating:"4"));
+	}
+}

@@ -1,0 +1,5 @@
+package io.moviebrain.moviecatalogservice.resource;
+@RestController
+public class moviecatalogueresource {
+
+}
